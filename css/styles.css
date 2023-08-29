@@ -86,7 +86,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    margin: 8% auto;
+    margin: 8% 1%;
 }
 
 .card {
@@ -94,6 +94,7 @@ main {
     border-radius: 5px;
     transition: 0.3s;
     flex-wrap: wrap;
+    flex-shrink: 1;
     display: flex;
     width: 490px;
     height: 350px;
@@ -128,7 +129,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 60px; */
+    gap: 60px;
 }
 
 .name-podium {
